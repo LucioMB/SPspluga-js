@@ -5,7 +5,8 @@ import '../../css/header.css'
 function Header() {
     return(
         <>
-            <header id="#top" className="header">
+            <div id="top">
+            <header className="header">
                 <nav className="nav-header">
                     <div className="div-header">
                         <a href="#top" className="top-S">SPLUGA</a>
@@ -17,6 +18,7 @@ function Header() {
                     </div>
                 </nav>
             </header>
+            </div>
         </>
     )
 }
