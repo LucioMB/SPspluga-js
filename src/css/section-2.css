@@ -1,11 +1,9 @@
-#section-2 {
-    height: 800px;
-}
-
 .section-2 {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    height: auto;
+    width: 100%;
 }
 
 li {
@@ -61,4 +59,12 @@ hr {
     margin: 20px 50px 20px 50px;
     padding: 20px 50px 20px 50px;
     border: 0px solid #000;
+}
+
+
+@media screen and (max-width: 991px) {
+    .img-section-2 {
+        flex-direction: column;
+        height: auto;
+    }
 }
